@@ -5,4 +5,6 @@ parameters:
 	paths:
 		- src/
 		- tests/
+	bootstrapFiles:
+		- vendor/symplify/easy-coding-standard/vendor/autoload.php
 	tmpDir: cache
