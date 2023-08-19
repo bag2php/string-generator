@@ -8,7 +8,8 @@ use Generator;
 
 /**
  * @param positive-int $length
- * @param list<string> $chars
+ * @param non-empty-list<string> $chars
+ * @phpstan-return Generator<string>
  */
 function string_generate(int $length, array $chars): Generator
 {
